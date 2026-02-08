@@ -1,0 +1,15 @@
+[lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings  
+    "F",   # Pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+    "B",   # bugbear
+    "C",   # comprehensions
+    "SIM", # simplify
+    "RUF", # ruff-specific
+]
+
+[lint.flake8-quotes]
+docstring-quotes = "double"
